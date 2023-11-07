@@ -1,0 +1,2195 @@
+fileFormatVersion: 2
+guid: c5ada6bdfba4e434091dc5aeb7ba885b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dddc18dfa3206b49a849b60c29f8afe
+      internalID: 1043493141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912576a6b6b7a884ca6e2b80543287a8
+      internalID: -303993737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3911a62dc0d3ee498b7e03bf3b5143c
+      internalID: -155271477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3303a3fa2eb921546ad50ca41e5c6fa2
+      internalID: -1586907894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_4
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6209ca09aeac440ac576fb6e0ee91c
+      internalID: 1578290103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_5
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d03d654e1cc5a94aaac58ed6f1950a7
+      internalID: -1002792953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f9798bc229704f81acc9b17e8a141
+      internalID: 16197329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 275
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c262dfc8ef5eee84e98494266df40d92
+      internalID: 417297314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 305
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e625272496890b74bac751685b5e77c0
+      internalID: -1059600307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0433f4f058da82e4a8fbe218fd545324
+      internalID: 1119428048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50942ff285c5c3c4cb48f05aa1f6f787
+      internalID: 899340351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_11
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0b5cd946020ae448f3f1592a533979
+      internalID: 333919447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325fdfc8955e9524c9dddb1b0981667f
+      internalID: 952656322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6514189c13bbb447963d1c30a1e5ce6
+      internalID: -800217045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a249651aff7e44db4e9f7f92b6fec8
+      internalID: -473479503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d6cef10e765d843a13ca951a59db7b
+      internalID: 486514415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 255
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd056e96fdf4c242a8d6e0e47068537
+      internalID: 1415087595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cb02c6633be14caec69ea80e2517b
+      internalID: 141116604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 255
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb5d6e5448db84394c1a9528a00a7b
+      internalID: 1443030316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb22e361e726db42930a398f335931b
+      internalID: 1195640807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 246
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45110ccd7555cd442b8498a806e23a6c
+      internalID: 1399993057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_21
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 281
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de21de5a36f68cb4db3e4d1768b6637f
+      internalID: 232262101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 281
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07910dcbd666bf644abeee787607046e
+      internalID: -927147618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_23
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 281
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7a45edf295c1242b004bced890a908
+      internalID: 730006415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_24
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 225
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d7521d005444843b22a0f8a75de344
+      internalID: -1529997634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_25
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 233
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2999413c8e2f54fbeaf17532b717e3
+      internalID: -986397654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 233
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a58fba7a58a554e932b9e8b0f98e79
+      internalID: 1520328764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_27
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 233
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033ebb683f7be4c4ca71da81fbac9981
+      internalID: -262691024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_28
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 195
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ffded7600f0c243ad300e03a2e39db
+      internalID: 1595291270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6a18b4f21e92f49a3c0c57f94a10f2
+      internalID: 1365551062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a862bde4fcddeac43b2f3b3de9352e8a
+      internalID: 1061545996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41c1dac1973264489c422d56dad7234
+      internalID: -991784085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 207
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551e38268701bb243821c600fa8a06eb
+      internalID: -382737359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 207
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9904830a49104a4aae159f9f378a57a
+      internalID: -1810405439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 207
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371b6d9e05d53df42b437657847eebf8
+      internalID: -1271143011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_35
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdbbbec3a383c04fbe831cc828c0976
+      internalID: -2124623859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_36
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 207
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62588c2a70534654bbf4cb3b6b7685dc
+      internalID: 1707746976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_37
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 217
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062c1f7b4f76adf41833870e53870e05
+      internalID: 963326324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_38
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 217
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39556928a5bd1fe41a54019f58f164c2
+      internalID: 474994253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_39
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 217
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38151489f49fc249a580c8655f17bdf
+      internalID: 1488253755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_40
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 201
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9376b9370645ad14da8ab8b544bf0861
+      internalID: -2134224328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_41
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 201
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b5229aee5b3a4599d588a40ffa4db
+      internalID: 832428467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_42
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 201
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb04c002bd05374cb1e37e2b0e0f458
+      internalID: 1528394915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f167cdf2a39fa1f4b9e8aa302d9179a1
+      internalID: 1656287332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_44
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f416d068336420447b6dc7472ef00df0
+      internalID: 51991289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 143
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fd58ffbfa6cdd48bc59b0d8dd42002
+      internalID: 529949074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67886676ba429c4c9d6b10d60dc5aa5
+      internalID: -1778537627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedf69b0ccc10f4459bec435a49962dd
+      internalID: -973965216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575df6ae7a6c9db4d93bfcfc06c9751b
+      internalID: -1646976121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_49
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 143
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ca4a3e85b600448924c81aeb8216a5
+      internalID: 619096165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_50
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06cf2033d66d547989de4f771b48eb
+      internalID: -1674833101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_51
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77290ef39916bc64b8cd352e3a8bd107
+      internalID: -1746770738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_52
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a9d992703cd6e4cab772753c747027
+      internalID: -1798455411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_53
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9a0756b8c51464a95029d13a3cf1ab
+      internalID: -414786660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_54
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd7fb8c6eaf974aaa4a6e10e1c0222
+      internalID: -1790306375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_55
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 115
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a483932b9075ab4098895c758f65a36
+      internalID: 1625330899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_56
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb67be2ae8f676a44855d8a2d6009a54
+      internalID: 572379505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_57
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f075db78cdd4464da1ce0edfcc8849f
+      internalID: -950927901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_58
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cb0a3f96261504d97ba293988a82f1
+      internalID: -1422143110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_59
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630f4b590e5f824abd3eb303420337c
+      internalID: -87011405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_60
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe309100f846364cbae1c5a83ce48aa
+      internalID: 882387458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_61
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa00ecbd4095b844be72e110d3ce01e
+      internalID: 1060153956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_62
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf92792903eccb844868e2dc75b1cbe7
+      internalID: 148051967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_63
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 95
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31868b9d504ec540bc397a628769893
+      internalID: -1825281205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07343cba0c74ff544b693de54dbf295b
+      internalID: -514446368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f289cf7bf9e47848b38b22537d86e3b
+      internalID: 878821531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_66
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 95
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c0ce2250a830448bb1d2d31cb1a764
+      internalID: -850366961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 95
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8806304a90d594b4b8d5dab66bbab8eb
+      internalID: -4492392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_68
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ebdc29b5c41614fa76af9f233d3421
+      internalID: -612315410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_69
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 31
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983543a0d4ceca747a060d0452ee17d6
+      internalID: -1707020330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_70
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2603ecd6978cf8d4abacfa1f3801e0bf
+      internalID: -693028870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd9e4b001cad68429391f89c7b6a055
+      internalID: -1108278855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 64
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30305089c08fb7b49aa8a766695f780a
+      internalID: -1188338600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ae1ecba10541459a054964783df2c
+      internalID: -1232074631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_74
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 64
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6a53e9c1e7904ebeb96cd7007edd4
+      internalID: 1700738872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_75
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 64
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d3e3b8626356042ba49db6ee51fe47
+      internalID: 906737281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_76
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 64
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66d3c7d9f354b04e9bc56ad11c515da
+      internalID: -169297721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_77
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 64
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61bd949391135b4eb8f50f90207f611
+      internalID: 1572551641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_78
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0aa2b3bfb14e7449557501c6adfff8
+      internalID: -1146154209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_79
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990499d510db46d45bbbdb2ee4f4e961
+      internalID: -1360328189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_80
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 73
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aad6145f9b0954eb82a260da935849
+      internalID: -2074647952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_81
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 73
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1b6e923fbf55d4fae53cb8a1ca8794
+      internalID: 40465297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_82
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 73
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4f9140e8d5834eb592067ae1509a3
+      internalID: -359824787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 35
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be9be807db7b764186897ee847c0716
+      internalID: -1334888052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_84
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124e1ab5cf3b7d44acfafda7d78652d
+      internalID: 1918714282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_85
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d10cbabca729d48bc40d9513ad4073
+      internalID: 452697654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_86
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a397dd7a6e721498bb174012ff9815
+      internalID: -822790596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 23
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6346ddb6eb3443a3659570eb015d3
+      internalID: 1960639963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 23
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7f98f7694a96942a63c270c08c4738
+      internalID: -2131191352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 23
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036cc7f44876a4d40ac186d3c8bd79c5
+      internalID: -443615368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 23
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889afff15cad2da47abf45e82af9f4aa
+      internalID: -1091529676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_91
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 41
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5411e7447f1e9342984034c39f217a5
+      internalID: 2129197297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_92
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 41
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca759b026f477241b9bc9fb389781e9
+      internalID: -574236064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiPanelsAndSlotsShadows_93
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 41
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79addc4136ec8ee4d8497665b214868f
+      internalID: -1227357366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_GuiPanelsAndSlotsShadows_0: 1043493141
+      Minifantasy_GuiPanelsAndSlotsShadows_1: -303993737
+      Minifantasy_GuiPanelsAndSlotsShadows_10: 899340351
+      Minifantasy_GuiPanelsAndSlotsShadows_11: 333919447
+      Minifantasy_GuiPanelsAndSlotsShadows_12: 952656322
+      Minifantasy_GuiPanelsAndSlotsShadows_13: -800217045
+      Minifantasy_GuiPanelsAndSlotsShadows_14: -473479503
+      Minifantasy_GuiPanelsAndSlotsShadows_15: 486514415
+      Minifantasy_GuiPanelsAndSlotsShadows_16: 1415087595
+      Minifantasy_GuiPanelsAndSlotsShadows_17: 141116604
+      Minifantasy_GuiPanelsAndSlotsShadows_18: 1443030316
+      Minifantasy_GuiPanelsAndSlotsShadows_19: 1195640807
+      Minifantasy_GuiPanelsAndSlotsShadows_2: -155271477
+      Minifantasy_GuiPanelsAndSlotsShadows_20: 1399993057
+      Minifantasy_GuiPanelsAndSlotsShadows_21: 232262101
+      Minifantasy_GuiPanelsAndSlotsShadows_22: -927147618
+      Minifantasy_GuiPanelsAndSlotsShadows_23: 730006415
+      Minifantasy_GuiPanelsAndSlotsShadows_24: -1529997634
+      Minifantasy_GuiPanelsAndSlotsShadows_25: -986397654
+      Minifantasy_GuiPanelsAndSlotsShadows_26: 1520328764
+      Minifantasy_GuiPanelsAndSlotsShadows_27: -262691024
+      Minifantasy_GuiPanelsAndSlotsShadows_28: 1595291270
+      Minifantasy_GuiPanelsAndSlotsShadows_29: 1365551062
+      Minifantasy_GuiPanelsAndSlotsShadows_3: -1586907894
+      Minifantasy_GuiPanelsAndSlotsShadows_30: 1061545996
+      Minifantasy_GuiPanelsAndSlotsShadows_31: -991784085
+      Minifantasy_GuiPanelsAndSlotsShadows_32: -382737359
+      Minifantasy_GuiPanelsAndSlotsShadows_33: -1810405439
+      Minifantasy_GuiPanelsAndSlotsShadows_34: -1271143011
+      Minifantasy_GuiPanelsAndSlotsShadows_35: -2124623859
+      Minifantasy_GuiPanelsAndSlotsShadows_36: 1707746976
+      Minifantasy_GuiPanelsAndSlotsShadows_37: 963326324
+      Minifantasy_GuiPanelsAndSlotsShadows_38: 474994253
+      Minifantasy_GuiPanelsAndSlotsShadows_39: 1488253755
+      Minifantasy_GuiPanelsAndSlotsShadows_4: 1578290103
+      Minifantasy_GuiPanelsAndSlotsShadows_40: -2134224328
+      Minifantasy_GuiPanelsAndSlotsShadows_41: 832428467
+      Minifantasy_GuiPanelsAndSlotsShadows_42: 1528394915
+      Minifantasy_GuiPanelsAndSlotsShadows_43: 1656287332
+      Minifantasy_GuiPanelsAndSlotsShadows_44: 51991289
+      Minifantasy_GuiPanelsAndSlotsShadows_45: 529949074
+      Minifantasy_GuiPanelsAndSlotsShadows_46: -1778537627
+      Minifantasy_GuiPanelsAndSlotsShadows_47: -973965216
+      Minifantasy_GuiPanelsAndSlotsShadows_48: -1646976121
+      Minifantasy_GuiPanelsAndSlotsShadows_49: 619096165
+      Minifantasy_GuiPanelsAndSlotsShadows_5: -1002792953
+      Minifantasy_GuiPanelsAndSlotsShadows_50: -1674833101
+      Minifantasy_GuiPanelsAndSlotsShadows_51: -1746770738
+      Minifantasy_GuiPanelsAndSlotsShadows_52: -1798455411
+      Minifantasy_GuiPanelsAndSlotsShadows_53: -414786660
+      Minifantasy_GuiPanelsAndSlotsShadows_54: -1790306375
+      Minifantasy_GuiPanelsAndSlotsShadows_55: 1625330899
+      Minifantasy_GuiPanelsAndSlotsShadows_56: 572379505
+      Minifantasy_GuiPanelsAndSlotsShadows_57: -950927901
+      Minifantasy_GuiPanelsAndSlotsShadows_58: -1422143110
+      Minifantasy_GuiPanelsAndSlotsShadows_59: -87011405
+      Minifantasy_GuiPanelsAndSlotsShadows_6: 16197329
+      Minifantasy_GuiPanelsAndSlotsShadows_60: 882387458
+      Minifantasy_GuiPanelsAndSlotsShadows_61: 1060153956
+      Minifantasy_GuiPanelsAndSlotsShadows_62: 148051967
+      Minifantasy_GuiPanelsAndSlotsShadows_63: -1825281205
+      Minifantasy_GuiPanelsAndSlotsShadows_64: -514446368
+      Minifantasy_GuiPanelsAndSlotsShadows_65: 878821531
+      Minifantasy_GuiPanelsAndSlotsShadows_66: -850366961
+      Minifantasy_GuiPanelsAndSlotsShadows_67: -4492392
+      Minifantasy_GuiPanelsAndSlotsShadows_68: -612315410
+      Minifantasy_GuiPanelsAndSlotsShadows_69: -1707020330
+      Minifantasy_GuiPanelsAndSlotsShadows_7: 417297314
+      Minifantasy_GuiPanelsAndSlotsShadows_70: -693028870
+      Minifantasy_GuiPanelsAndSlotsShadows_71: -1108278855
+      Minifantasy_GuiPanelsAndSlotsShadows_72: -1188338600
+      Minifantasy_GuiPanelsAndSlotsShadows_73: -1232074631
+      Minifantasy_GuiPanelsAndSlotsShadows_74: 1700738872
+      Minifantasy_GuiPanelsAndSlotsShadows_75: 906737281
+      Minifantasy_GuiPanelsAndSlotsShadows_76: -169297721
+      Minifantasy_GuiPanelsAndSlotsShadows_77: 1572551641
+      Minifantasy_GuiPanelsAndSlotsShadows_78: -1146154209
+      Minifantasy_GuiPanelsAndSlotsShadows_79: -1360328189
+      Minifantasy_GuiPanelsAndSlotsShadows_8: -1059600307
+      Minifantasy_GuiPanelsAndSlotsShadows_80: -2074647952
+      Minifantasy_GuiPanelsAndSlotsShadows_81: 40465297
+      Minifantasy_GuiPanelsAndSlotsShadows_82: -359824787
+      Minifantasy_GuiPanelsAndSlotsShadows_83: -1334888052
+      Minifantasy_GuiPanelsAndSlotsShadows_84: 1918714282
+      Minifantasy_GuiPanelsAndSlotsShadows_85: 452697654
+      Minifantasy_GuiPanelsAndSlotsShadows_86: -822790596
+      Minifantasy_GuiPanelsAndSlotsShadows_87: 1960639963
+      Minifantasy_GuiPanelsAndSlotsShadows_88: -2131191352
+      Minifantasy_GuiPanelsAndSlotsShadows_89: -443615368
+      Minifantasy_GuiPanelsAndSlotsShadows_9: 1119428048
+      Minifantasy_GuiPanelsAndSlotsShadows_90: -1091529676
+      Minifantasy_GuiPanelsAndSlotsShadows_91: 2129197297
+      Minifantasy_GuiPanelsAndSlotsShadows_92: -574236064
+      Minifantasy_GuiPanelsAndSlotsShadows_93: -1227357366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e9655a915941a774da4d3ee2caf6c005
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - BeggarsExtended
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f7459c04d0fe2084b8804041605a568b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1de61e39cb5d488fe0684e723aceb, type: 3}
+  m_Name: Water Dirt
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: bd231ad3d849ed54ba819f778e005764, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 1
+  TileIds: d0023a00d0023a00d0023a0014033900d0023a00d0023a008a023c00cf023b00d0023a0012034400d0023a00150341008c024300d1023f008b023e00d0023a00
+  InteriorCornerTileIds: 5a033600590338009b0342009a033d00

@@ -1,0 +1,16 @@
+using ProjectLumina.Character;
+using ProjectTarnished.Character;
+
+namespace ProjectTarnished.Data.Calculators
+{
+    public static class AttackCalculator
+    {
+        public static int GetAttackRoll(AttributeName attributeName, CharacterAttributes attributes, CharacterLevel level, int baseAttack)
+        {
+            Stat attack = new(ActionStatCalculator.GetActionStat(attributes.Attributes.GetAttribute(attributeName), level) + baseAttack);
+            int attackRoll = (int)(attack.Value + RollDice.Roll2D10());
+
+            return attackRoll;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: Inner Top Right Concrete Dirt
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: bd231ad3d849ed54ba819f778e005764, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 0
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 841
+    probabilityFactor: 1
+  - tileData: 845
+    probabilityFactor: 0.178
+  - tileData: 849
+    probabilityFactor: 0.035
+  RandomizeFlagMask: 0
+  RemoveBrushIdAfterRefresh: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: Melee
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Melee
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(7.36843872,24.21051)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(7.36843872,144.21051)"},"ID":1,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(8.023056,126.84211)"},"ID":2,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-191.487015,131.052673)"},"ID":3,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":2},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,120.526314)"},"ID":4,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-159.135223,120.727234)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ProjectTarnished.AI.Actions.CanMeleeAttack","NodeData":{"Offset":"(-90.38522,124.477173)"},"ID":6,"Name":"Can
+        Melee Attack","Instant":true,"SharedAbilityability":{"Type":"ProjectTarnished.AI.SharedTypes.SharedAbility","Name":"Melee
+        Ability","IsShared":true},"SharedSensorsensor":{"Type":"ProjectTarnished.AI.SharedTypes.SharedSensor","Name":"Sensor","IsShared":true}},{"Type":"ProjectTarnished.AI.Actions.MeleeAttackAIAction","NodeData":{"Offset":"(99.99997,117.5)"},"ID":7,"Name":"Add
+        Melee Attack Command","Instant":true,"SharedAbility_ability":{"Type":"ProjectTarnished.AI.SharedTypes.SharedAbility","Name":"Melee
+        Ability","IsShared":true},"SharedSensor_sensor":{"Type":"ProjectTarnished.AI.SharedTypes.SharedSensor","Name":"Sensor","IsShared":true}}]},{"Type":"ProjectTarnished.AI.Actions.Move","NodeData":{"Offset":"(154.110626,115.555519)"},"ID":8,"Name":"Add
+        Move Command","Instant":true,"SharedSensor_sensor":{"Type":"ProjectTarnished.AI.SharedTypes.SharedSensor","Name":"Sensor","IsShared":true}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference","NodeData":{"Offset":"(208.991913,139.278152)"},"ID":9,"Name":"Execute
+        Commands","Instant":true,"ExternalBehavior[]externalBehaviors":[0],"SharedNamedVariable[]variables":[],"Booleancollapsed":false}]}]},"Variables":[{"Type":"ProjectTarnished.AI.SharedTypes.SharedAbility","Name":"Melee
+        Ability","IsShared":true},{"Type":"ProjectTarnished.AI.SharedTypes.SharedSensor","Name":"Sensor","IsShared":true}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 11400000, guid: 15bdef1025b93624fb8fed7b7dd86152, type: 2}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.7
