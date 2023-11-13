@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 1697961080783573731}
   - component: {fileID: 6065308716912658392}
   - component: {fileID: 1671246168097341991}
+  - component: {fileID: 1984536354860996951}
   m_Layer: 0
   m_Name: Dialogue Manager
   m_TagString: Untagged
@@ -404,11 +405,11 @@ MonoBehaviour:
       showNPCSubtitlesDuringLine: 1
       showNPCSubtitlesWithResponses: 1
       showPCSubtitlesDuringLine: 1
-      allowPCSubtitleReminders: 0
-      skipPCSubtitleAfterResponseMenu: 0
+      allowPCSubtitleReminders: 1
+      skipPCSubtitleAfterResponseMenu: 1
       subtitleCharsPerSecond: 10
       minSubtitleSeconds: 2
-      continueButton: 0
+      continueButton: 1
       requireContinueOnLastLine: 0
       richTextEmphases: 1
       informSequenceStartAndEnd: 0
@@ -633,5 +634,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ffdd4648481f43439313ff21b919f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1984536354860996951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954236642049790941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc3824de22b0a4c9b7ad1f54dd7083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

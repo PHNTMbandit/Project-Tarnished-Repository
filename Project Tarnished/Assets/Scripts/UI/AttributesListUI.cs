@@ -44,8 +44,8 @@ namespace ProjectTarnished.UI
         {
             for (int i = 0; i < _stats.Length; i++)
             {
-                _stats[i].SetName(_attributes.Attributes.GetAttribute(i).attributeName.ToString());
-                _stats[i].SetValue((int)_attributes.Attributes.GetAttribute(i).Score.Value);
+                _stats[i].SetName(_attributes.GetAttribute(i).attributeName.ToString());
+                _stats[i].SetValue((int)_attributes.GetAttribute(i).Score.Value);
             }
         }
     }

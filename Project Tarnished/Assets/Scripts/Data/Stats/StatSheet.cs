@@ -1,10 +1,10 @@
+using System.Collections.Generic;
+using ProjectTarnished.Data.Items;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace ProjectTarnished.Data.Stats
 {
-
-
     [CreateAssetMenu(fileName = "New Stat Sheet", menuName = "Project Tarnished/Character/Stat Sheet", order = 0)]
     public class StatSheet : ScriptableObject
     {
@@ -23,14 +23,25 @@ namespace ProjectTarnished.Data.Stats
         [field: TabGroup("Level"), SerializeField]
         public Level Level { get; private set; }
 
-        [field: TabGroup("Attributes"), SerializeField]
-        public Attributes Attributes { get; private set; }
+        [field: TabGroup("Attributes")]
+        public Attribute[] attributes =
+        {
+            new(AttributeName.Agility),
+            new(AttributeName.Attunement),
+            new(AttributeName.Logic),
+            new(AttributeName.Prescence),
+            new(AttributeName.Resolve),
+            new(AttributeName.Vigour)
+        };
+
+        [field: TabGroup("Skills"), TableList(AlwaysExpanded = true), SerializeField]
+        public Skill[] Skills { get; private set; }
 
         [field: TabGroup("Health"), SerializeField]
         public Health Health { get; private set; }
 
-        [field: TabGroup("Inventory"), SerializeField]
-        public Inventory Inventory { get; private set; }
+        [field: TabGroup("Inventory"), TableList(AlwaysExpanded = true), SerializeField]
+        public List<Item> Inventory { get; private set; }
 
         public void SetName(string firstName, string lastName)
         {
@@ -38,9 +49,9 @@ namespace ProjectTarnished.Data.Stats
             CharacterLastName = lastName;
         }
 
-        public void SetAttributes(Attributes attributes)
+        public void SetAttributes(Attribute[] attributes)
         {
-            Attributes = attributes;
+            this.attributes = attributes;
         }
     }
 }

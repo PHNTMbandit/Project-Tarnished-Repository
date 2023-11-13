@@ -18,7 +18,7 @@ namespace ProjectTarnished.Character
         {
             get
             {
-                return new(MoveSpeedCalculator.GetMoveSpeed(_attributes.Attributes.GetAttribute(AttributeName.Agility), _level));
+                return new(MoveSpeedCalculator.GetMoveSpeed(_attributes.GetAttribute(AttributeName.Agility), _level));
             }
         }
 

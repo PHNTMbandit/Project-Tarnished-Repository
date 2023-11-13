@@ -12,7 +12,7 @@ namespace ProjectTarnished.Data.Calculators
 
         public static int GetActionPoints(CharacterAttributes attributes, CharacterLevel level)
         {
-            return (int)(_baseActionPoints * (1 + (attributes.Attributes.GetAttribute(AttributeName.Agility).Score.Value - 10) * _attributeCoefficient) * (1 + level.Level.CurrentLevel * _levelCoefficient));
+            return (int)(_baseActionPoints * (1 + (attributes.GetAttribute(AttributeName.Agility).Score.Value - 10) * _attributeCoefficient) * (1 + level.Level.CurrentLevel * _levelCoefficient));
         }
     }
 }

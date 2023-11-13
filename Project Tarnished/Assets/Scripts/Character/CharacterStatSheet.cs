@@ -16,7 +16,7 @@ namespace ProjectTarnished.Character
 
         private void SetCharacterGameobjectName()
         {
-            StatSheet = ScriptableObject.Instantiate(StatSheet);
+            StatSheet = Instantiate(StatSheet);
             gameObject.name = StatSheet.CharacterFirstName;
         }
     }
