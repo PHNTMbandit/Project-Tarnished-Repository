@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using DG.Tweening;
 using ProjectLumina.Capabilities;
 using ProjectTarnished.Camera;
+using ProjectTarnished.Capabilities;
 using ProjectTarnished.Character;
 using ProjectTarnished.Controllers.StateMachine;
 using ProjectTarnished.Input;
@@ -85,7 +85,7 @@ namespace ProjectTarnished.Controllers
         {
             StateMachine = new(this);
 
-            StateMachine.Initialise(GetState("Peace State"));
+            StateMachine.Initialise(GetState("Out Dialogue State"));
         }
 
         private void Update()
@@ -166,7 +166,7 @@ namespace ProjectTarnished.Controllers
         private void FinishBattle()
         {
             _isBattleActive = false;
-            SetState("Peace State");
+            SetState("In Dialogue State");
         }
 
         #endregion Initiative Functions
@@ -258,5 +258,23 @@ namespace ProjectTarnished.Controllers
         }
 
         #endregion State Functions
+
+        #region Dialogue Functions
+
+        public void EnterDialogue(Transform actor)
+        {
+            StateMachine.ChangeState(GetState("In Dialogue State"));
+
+            CRPGCamera.SnapTo(actor);
+        }
+
+        public void ExitDialogue(Transform actor)
+        {
+            StateMachine.ChangeState(GetState("Out Dialogue State"));
+
+            CRPGCamera.SnapTo(actor);
+        }
+
+        #endregion
     }
 }
