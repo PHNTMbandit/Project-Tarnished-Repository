@@ -41,7 +41,7 @@ namespace ProjectTarnished.Data
 
         public void ChangeWoundPoints(AttributeName attackAttributeName, int attackRoll, Wound inflictableWound)
         {
-            int damage = attackRoll - (int)_attributes.Attributes.GetAttribute(attackAttributeName).Score.Value;
+            int damage = attackRoll - (int)_attributes.GetAttribute(attackAttributeName).Score.Value;
             Health.CurrentWoundPoints += damage;
 
             ActivityLogController.Instance.AddActivityLog($"{gameObject.name} takes {damage} damage");
@@ -58,12 +58,12 @@ namespace ProjectTarnished.Data
 
         public bool IsHit(int attackRoll, AttributeName attackAttributeName)
         {
-            return attackRoll > (float)_attributes.Attributes.GetAttribute(attackAttributeName).Score.Value;
+            return attackRoll > (float)_attributes.GetAttribute(attackAttributeName).Score.Value;
         }
 
         public bool IsCritical(int attackRoll, AttributeName attackAttributeName)
         {
-            return attackRoll >= ((float)_attributes.Attributes.GetAttribute(attackAttributeName).Score.Value * 2);
+            return attackRoll >= ((float)_attributes.GetAttribute(attackAttributeName).Score.Value * 2);
         }
 
         public void ShowHitAnimation(Transform origin)

@@ -9,7 +9,7 @@ namespace ProjectTarnished.Controllers.StateMachine
         public override void OnEnter(GameStateMachineController stateMachineController)
         {
             base.OnEnter(stateMachineController);
-            Debug.Log("out of dialogue");
+
             stateMachineController.InputReader.onClick += stateMachineController.HeroController.Command;
             stateMachineController.InputReader.onClick += stateMachineController.HeroController.ClickSelect;
             stateMachineController.InputReader.onRelease += stateMachineController.HeroController.ReleaseSelect;

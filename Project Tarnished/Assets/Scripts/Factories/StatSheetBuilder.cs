@@ -1,3 +1,4 @@
+using ProjectTarnished.Data;
 using ProjectTarnished.Data.Stats;
 using UnityEngine;
 
@@ -23,7 +24,7 @@ namespace ProjectTarnished.Factories
             return this;
         }
 
-        public StatSheetBuilder SetAttributes(Attributes attributes)
+        public StatSheetBuilder SetAttributes(Attribute[] attributes)
         {
             _characterStatSheet.SetAttributes(attributes);
             return this;

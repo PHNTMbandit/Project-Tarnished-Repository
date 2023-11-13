@@ -27,7 +27,7 @@ namespace ProjectTarnished.Character
         {
             List<Ability> allAbilities = new();
 
-            allAbilities.AddRange(_inventory.Inventory.GetInventoryAbilities());
+            allAbilities.AddRange(_inventory.GetInventoryAbilities());
             allAbilities.AddRange(_characterAbilities);
 
             return allAbilities;

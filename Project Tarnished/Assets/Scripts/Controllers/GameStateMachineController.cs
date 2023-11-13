@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using ProjectLumina.Capabilities;
 using ProjectTarnished.Camera;
-using ProjectTarnished.Capabilities;
 using ProjectTarnished.Character;
 using ProjectTarnished.Controllers.StateMachine;
 using ProjectTarnished.Input;

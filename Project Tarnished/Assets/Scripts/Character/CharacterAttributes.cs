@@ -1,5 +1,5 @@
 using ProjectTarnished.Character;
-using ProjectTarnished.Data.Stats;
+using ProjectTarnished.Data;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,11 +9,6 @@ namespace ProjectLumina.Character
     [AddComponentMenu("Character/Character Attributes")]
     public class CharacterAttributes : MonoBehaviour
     {
-        public Attributes Attributes
-        {
-            get => _characterStatSheet.StatSheet.Attributes;
-        }
-
         private CharacterStatSheet _characterStatSheet;
 
         public UnityAction onAttributesChanged;
@@ -21,6 +16,21 @@ namespace ProjectLumina.Character
         private void Awake()
         {
             _characterStatSheet = GetComponent<CharacterStatSheet>();
+        }
+
+        public Attribute GetAttribute(AttributeName attributeName)
+        {
+            return System.Array.Find(_characterStatSheet.StatSheet.attributes, i => i.attributeName == attributeName);
+        }
+
+        public Attribute GetAttribute(string attributeName)
+        {
+            return System.Array.Find(_characterStatSheet.StatSheet.attributes, i => i.attributeName.ToString() == attributeName);
+        }
+
+        public Attribute GetAttribute(int index)
+        {
+            return _characterStatSheet.StatSheet.attributes[index];
         }
     }
 }

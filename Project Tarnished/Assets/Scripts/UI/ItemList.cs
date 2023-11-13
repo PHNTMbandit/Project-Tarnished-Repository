@@ -38,11 +38,11 @@ namespace ProjectTarnished.UI
             {
                 if (inventory != null)
                 {
-                    inventory.Inventory.onInventoryChanged -= GenerateList;
+                    inventory.onInventoryChanged -= GenerateList;
                 }
 
                 _inventory = inventory;
-                _inventory.Inventory.onInventoryChanged += GenerateList; ;
+                _inventory.onInventoryChanged += GenerateList; ;
 
                 GenerateList();
             }
@@ -52,10 +52,10 @@ namespace ProjectTarnished.UI
         {
             ResetList();
 
-            for (int i = 0; i < _inventory.Inventory.GetItems().Count; i++)
+            for (int i = 0; i < _inventory.GetItems().Count; i++)
             {
                 ItemSlot itemSlot = Instantiate(_templateItemSlot.gameObject, _listTransform).GetComponent<ItemSlot>();
-                Item item = _inventory.Inventory.GetItem(i);
+                Item item = _inventory.GetItem(i);
 
                 itemSlot.gameObject.SetActive(true);
                 itemSlot.SetItem(item);

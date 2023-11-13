@@ -19,24 +19,23 @@ MonoBehaviour:
   <Level>k__BackingField:
     _maxLevel: 99
     _currentLevel: 1
-    _baseXP: 100
-  <Attributes>k__BackingField:
-    attributes:
-    - attributeName: 0
-      baseValue: 11
-    - attributeName: 1
-      baseValue: 10
-    - attributeName: 2
-      baseValue: 10
-    - attributeName: 3
-      baseValue: 10
-    - attributeName: 4
-      baseValue: 10
-    - attributeName: 5
-      baseValue: 10
+  attributes:
+  - attributeName: 0
+    baseValue: 10
+  - attributeName: 1
+    baseValue: 10
+  - attributeName: 2
+    baseValue: 10
+  - attributeName: 3
+    baseValue: 10
+  - attributeName: 4
+    baseValue: 10
+  - attributeName: 5
+    baseValue: 10
+  <Skills>k__BackingField:
+  - {fileID: 11400000, guid: 8334f3b324cabf14ea16dd85379efdd0, type: 2}
   <Health>k__BackingField:
     _maxWoundPoints: 30
     _currentWoundPoints: 0
   <Inventory>k__BackingField:
-    _items:
-    - {fileID: 11400000, guid: 827435e3e1b48d34686171d1c94d3685, type: 2}
+  - {fileID: 11400000, guid: 827435e3e1b48d34686171d1c94d3685, type: 2}
