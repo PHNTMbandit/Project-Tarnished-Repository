@@ -54,9 +54,10 @@ MonoBehaviour:
   - {fileID: 0}
   _battleStartTimer: 1
   _gameStates:
+  - {fileID: 11400000, guid: b0950fc94a0034b4f95ee08f317487fc, type: 2}
+  - {fileID: 11400000, guid: f632337519173394e969dcc2065e6b98, type: 2}
   - {fileID: 11400000, guid: d831f8c4916a47743979df5f547293cf, type: 2}
   - {fileID: 11400000, guid: ccfac68c692d42741ab8e80a55284b1c, type: 2}
-  - {fileID: 11400000, guid: 8a9b5936c8b44144192d7e588c0ef5a2, type: 2}
   - {fileID: 11400000, guid: 5f1b949a847627346bfac8a8cecaaa09, type: 2}
 --- !u!114 &4090343767469424725
 MonoBehaviour:

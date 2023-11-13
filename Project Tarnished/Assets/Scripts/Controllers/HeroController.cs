@@ -5,6 +5,7 @@ using ProjectTarnished.Character;
 using ProjectTarnished.Commands;
 using ProjectTarnished.Data.Abilities;
 using ProjectTarnished.Input;
+using ProjectTarnished.Interfaces;
 using ProjectTarnished.UI;
 using ProjectTarnished.UI.Cursor;
 using Sirenix.OdinInspector;
@@ -77,21 +78,30 @@ namespace ProjectTarnished.Controllers
         {
             if (HasRaycastHit(_commandableLayerMask, out Collider2D hit, out Vector2 cursorWorldPosition))
             {
-                if (hit != null && SelectedAbility != null)
+                if (hit != null)
                 {
-                    if (CurrentHero.TryGetComponent(out CharacterAbilityPoints characterAbilityPoints))
+                    if (SelectedAbility != null)
                     {
-                        if (SelectedAbility.CanUseAbility(CurrentHero, hit.gameObject))
+                        if (CurrentHero.TryGetComponent(out CharacterAbilityPoints characterAbilityPoints))
                         {
-                            CurrentHero.ClearCommands();
-                            SelectedAbility.UseAbility(CurrentHero, hit.gameObject);
-                            CurrentHero.ExecuteCommands();
-
-                            if (GameStateMachineController.Instance.IsState("Hero Turn State"))
+                            if (SelectedAbility.CanUseAbility(CurrentHero, hit.gameObject))
                             {
-                                characterAbilityPoints.UseAbilityPoints(SelectedAbility.AbilityPoints);
+                                CurrentHero.ClearCommands();
+                                SelectedAbility.UseAbility(CurrentHero, hit.gameObject);
+                                CurrentHero.ExecuteCommands();
+
+                                if (GameStateMachineController.Instance.IsState("Hero Turn State"))
+                                {
+                                    characterAbilityPoints.UseAbilityPoints(SelectedAbility.AbilityPoints);
+                                }
                             }
                         }
+                    }
+                    else if (hit.TryGetComponent(out ICommandable commandable))
+                    {
+                        CurrentHero.ClearCommands();
+                        commandable.AddCommands(CurrentHero);
+                        CurrentHero.ExecuteCommands();
                     }
                 }
                 else

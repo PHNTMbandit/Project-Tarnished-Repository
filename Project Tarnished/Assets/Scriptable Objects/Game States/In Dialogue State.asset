@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c7cd58e56ecea147b7f8705aaa2e007, type: 3}
-  m_Name: Peace State
+  m_Script: {fileID: 11500000, guid: 04c927f89e0edcd4881f8a78f1ac5760, type: 3}
+  m_Name: In Dialogue State
   m_EditorClassIdentifier: 
