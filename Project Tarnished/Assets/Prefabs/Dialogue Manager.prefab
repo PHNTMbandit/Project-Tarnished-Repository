@@ -408,8 +408,8 @@ MonoBehaviour:
       allowPCSubtitleReminders: 1
       skipPCSubtitleAfterResponseMenu: 1
       subtitleCharsPerSecond: 10
-      minSubtitleSeconds: 2
-      continueButton: 1
+      minSubtitleSeconds: 0
+      continueButton: 4
       requireContinueOnLastLine: 0
       richTextEmphases: 1
       informSequenceStartAndEnd: 0
@@ -426,7 +426,7 @@ MonoBehaviour:
       disableInternalSequencerCommands: 0
     inputSettings:
       alwaysForceResponseMenu: 1
-      includeInvalidEntries: 0
+      includeInvalidEntries: 1
       responseTimeout: 0
       responseTimeoutAction: 0
       emTagForOldResponses: 1
