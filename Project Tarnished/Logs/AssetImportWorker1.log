@@ -15,7 +15,7 @@ D:/Project-Tarnished-Repository/Project Tarnished
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58580
+58008
 Successfully changed project path to: D:/Project-Tarnished-Repository/Project Tarnished
 D:/Project-Tarnished-Repository/Project Tarnished
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Project-Tarnished-Repository/Project Tarnished
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22108] Host "[IP] 192.168.11.9 [Port] 0 [Flags] 2 [Guid] 587139505 [EditorId] 587139505 [Version] 1048832 [Id] WindowsEditor(7,Doms-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3588] Host "[IP] 192.168.11.9 [Port] 0 [Flags] 2 [Guid] 1287121451 [EditorId] 1287121451 [Version] 1048832 [Id] WindowsEditor(7,Doms-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22108] Host "[IP] 192.168.11.9 [Port] 0 [Flags] 2 [Guid] 587139505 [EditorId] 587139505 [Version] 1048832 [Id] WindowsEditor(7,Doms-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3588] Host "[IP] 192.168.11.9 [Port] 0 [Flags] 2 [Guid] 1287121451 [EditorId] 1287121451 [Version] 1048832 [Id] WindowsEditor(7,Doms-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 8.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007240 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.007363 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 227 ms
+Android Extension - Scanning For ADB Devices 214 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.454 seconds
-Domain Reload Profiling: 720ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 783ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (105ms)
-		LoadAssemblies (82ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (92ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (454ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (416ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (306ms)
+			InitializePlatformSupportModulesInManaged (301ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (70ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,66 +118,66 @@ Domain Reload Profiling: 720ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FAA02D1F00 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
+Symbol file data-00000183094D94D0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA3311DE0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file data-0000018312E3B8C0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC5E9476A0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file data-00000183078DF090 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA3338C20 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file data-0000018312E460D0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA33C1460 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file data-0000018312ECE910 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA33E9C70 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file data-0000018312EF7120 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA34672B0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Symbol file data-0000018312F74760 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.599 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.961 seconds
-Domain Reload Profiling: 1558ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 1678ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (412ms)
-		LoadAssemblies (296ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (391ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (133ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (962ms)
+	FinalizeReload (931ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (804ms)
+		SetupLoadedEditorAssemblies (771ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (480ms)
-			ProcessInitializeOnLoadMethodAttributes (232ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (213ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6940 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 143 unused Assets / (423.0 KB). Loaded Objects now: 7517.
-Memory consumption went from 279.8 MB to 279.3 MB.
-Total: 14.010400 ms (FindLiveObjects: 0.459700 ms CreateObjectMapping: 0.198600 ms MarkObjects: 13.130600 ms  DeleteObjects: 0.220400 ms)
+Unloading 6949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (423.9 KB). Loaded Objects now: 7526.
+Memory consumption went from 279.8 MB to 279.4 MB.
+Total: 13.967100 ms (FindLiveObjects: 0.506900 ms CreateObjectMapping: 0.519900 ms MarkObjects: 12.713000 ms  DeleteObjects: 0.226100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,125 +192,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 19790.144116 seconds.
-  path: Assets/Scenes/Vardanor.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vardanor.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c688ff8aa310cfef2a6848d98739e31') in 0.009002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (364.1 KB). Loaded Objects now: 7517.
-Memory consumption went from 137.9 MB to 137.6 MB.
-Total: 14.496200 ms (FindLiveObjects: 0.463100 ms CreateObjectMapping: 0.332100 ms MarkObjects: 13.629600 ms  DeleteObjects: 0.070600 ms)
+Unloading 3 unused Assets / (364.1 KB). Loaded Objects now: 7526.
+Memory consumption went from 140.0 MB to 139.6 MB.
+Total: 14.458600 ms (FindLiveObjects: 0.503200 ms CreateObjectMapping: 0.431100 ms MarkObjects: 13.435700 ms  DeleteObjects: 0.088100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001FC895E8050 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC886FE020 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC895DC880 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC5EDDB700 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC87CFB050 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FAA3EF9020 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC88774010 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.401 seconds
-Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.026 seconds
-Domain Reload Profiling: 1425ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (251ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1026ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (690ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (467ms)
-			ProcessInitializeOnLoadMethodAttributes (135ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6751 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (390.3 KB). Loaded Objects now: 7533.
-Memory consumption went from 246.1 MB to 245.7 MB.
-Total: 12.425500 ms (FindLiveObjects: 0.394700 ms CreateObjectMapping: 0.179800 ms MarkObjects: 11.747000 ms  DeleteObjects: 0.103300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (364.1 KB). Loaded Objects now: 7533.
-Memory consumption went from 141.7 MB to 141.3 MB.
-Total: 13.310400 ms (FindLiveObjects: 0.516900 ms CreateObjectMapping: 0.399100 ms MarkObjects: 12.321100 ms  DeleteObjects: 0.072600 ms)
-
-Prepare: number of updated asset objects reloaded= 1
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
