@@ -223,3 +223,472 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022B0A0CB840 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0807F020 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0DBD5D90 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022941333040 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0692A050 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B06797220 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229410E0020 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling: 1422ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (23ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (665ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (391.6 KB). Loaded Objects now: 7542.
+Memory consumption went from 246.3 MB to 245.9 MB.
+Total: 12.428800 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.151900 ms MarkObjects: 11.730600 ms  DeleteObjects: 0.102500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002294391D580 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229437E2D90 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0DBD4770 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022ADF0B3040 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022941C66E30 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B50F90010 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B089D9010 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 1405ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (18ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (979ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (434ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (390.5 KB). Loaded Objects now: 7558.
+Memory consumption went from 248.2 MB to 247.8 MB.
+Total: 12.200600 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.153800 ms MarkObjects: 11.520700 ms  DeleteObjects: 0.126600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022B08F4ECF0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022ADF12FF20 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0DBD2640 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002294125F010 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B4E81DAB0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B099F6380 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0917F580 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.021 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (390.4 KB). Loaded Objects now: 7574.
+Memory consumption went from 250.1 MB to 249.7 MB.
+Total: 13.362200 ms (FindLiveObjects: 0.514400 ms CreateObjectMapping: 0.390000 ms MarkObjects: 12.339000 ms  DeleteObjects: 0.118000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022B08F4ECF0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B06DAC030 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B0DBD7EC0 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B52009030 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022ADEDCB010 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229412C1030 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B06DAC030 doesn't match image D:\Project-Tarnished-Repository\Project Tarnished\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1425ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (680ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (390.3 KB). Loaded Objects now: 7590.
+Memory consumption went from 252.1 MB to 251.7 MB.
+Total: 11.957600 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.341900 ms MarkObjects: 11.079000 ms  DeleteObjects: 0.119000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1719.569931 seconds.
+  path: Assets/Art/Tilesets
+  artifactKey: Guid(4d24f423c30c9ba47bae3fae37d98b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets using Guid(4d24f423c30c9ba47bae3fae37d98b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b65dc47985cec90ab6e4cfe940b6dca') in 0.006116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.751672 seconds.
+  path: Assets/Art/Tilesets/Town Ruins
+  artifactKey: Guid(e9390a133c29e3246aa126ecce999e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins using Guid(e9390a133c29e3246aa126ecce999e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c2ee89c0097d82030977994cc9e22f') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.235406 seconds.
+  path: Assets/Art/Tilesets/Town Ruins/TownRuins_wall_shadows.png
+  artifactKey: Guid(56ad673cb0e83bc4ba2932dceaadd5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins/TownRuins_wall_shadows.png using Guid(56ad673cb0e83bc4ba2932dceaadd5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b01feac0952d0d1c7a210d0602bd5f0') in 0.045269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.460764 seconds.
+  path: Assets/Art/Tilesets/Town Ruins/TownRuinsMockup.png
+  artifactKey: Guid(698c5353c9cbbba4baa40b308eaa08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins/TownRuinsMockup.png using Guid(698c5353c9cbbba4baa40b308eaa08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff865034e98ff159766907e560580b') in 0.010028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.864932 seconds.
+  path: Assets/Art/Tilesets/Monuments/Premade_Samples
+  artifactKey: Guid(f0aa097e0a6b0a84ea1fe5bc26dc64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Monuments/Premade_Samples using Guid(f0aa097e0a6b0a84ea1fe5bc26dc64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aa535300f6d041684427df38bd79d5') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.305832 seconds.
+  path: Assets/Art/Tilesets/Monuments/Monuments.png
+  artifactKey: Guid(5db6fe61a3a054b43abe7c8083fe3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Monuments/Monuments.png using Guid(5db6fe61a3a054b43abe7c8083fe3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51e4eb479600fab9a920ecfa3cca50f') in 0.008306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.394276 seconds.
+  path: Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png
+  artifactKey: Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png using Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f151ce285baa7174da6cf61dfb11657') in 0.009326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.498135 seconds.
+  path: Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png
+  artifactKey: Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png using Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d939fca19727d3dea9ff531dcad1aa2') in 0.007732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.917268 seconds.
+  path: Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png
+  artifactKey: Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Town Ruins/TownRuins_roof_frame.png using Guid(b6149efdb16cc8843a046a239e3b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fcab6138a126803e1eec5873af6b72') in 0.007610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.648244 seconds.
+  path: Assets/Tilesets/Town Ruins
+  artifactKey: Guid(c91e6578d02af664293b77c6912d1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Town Ruins using Guid(c91e6578d02af664293b77c6912d1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7932311759a8b3d6260c80da3af7ceea') in 0.000458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.252635 seconds.
+  path: Assets/Tilesets/Town Ruins/Town Ruins Tileset.asset
+  artifactKey: Guid(41fe59fe8e5cd6a49b07a83debb31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Town Ruins/Town Ruins Tileset.asset using Guid(41fe59fe8e5cd6a49b07a83debb31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8822f9c2f606dd331bb183b1b6e4f2') in 0.004480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.618247 seconds.
+  path: Assets/Tilesets/Town Ruins/Town Ruins Atlas.png
+  artifactKey: Guid(236deac7a03986446a724616715294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Town Ruins/Town Ruins Atlas.png using Guid(236deac7a03986446a724616715294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a052788d9a80e32febb5e7c958ac3291') in 0.033453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.604492 seconds.
+  path: Assets/Tilesets/Town Ruins/Town Ruins Tileset.asset
+  artifactKey: Guid(41fe59fe8e5cd6a49b07a83debb31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Town Ruins/Town Ruins Tileset.asset using Guid(41fe59fe8e5cd6a49b07a83debb31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd387286a787a7a93a8a2eb41135547ff') in 0.094861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.228200 seconds.
+  path: Assets/Tilesets/Castle/Castle - Outdoor Tileset.asset
+  artifactKey: Guid(699f1f7f0bf01d945a60e75322956f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Castle/Castle - Outdoor Tileset.asset using Guid(699f1f7f0bf01d945a60e75322956f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bf5bd7bd8ef7619c5c7f2eacfbad6d') in 0.097940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/CreativeSpore/SuperTilemapEditor - Extra/Tileset - Samples/Kenneys - Pixel Platform/PixelPlatformTileset.asset
+  artifactKey: Guid(2f0676fed35aeb545b21d74f5391e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CreativeSpore/SuperTilemapEditor - Extra/Tileset - Samples/Kenneys - Pixel Platform/PixelPlatformTileset.asset using Guid(2f0676fed35aeb545b21d74f5391e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662035d5e87328130c719ab4cc713f33') in 0.018557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilesets/Fountains/Fountains Tileset.asset
+  artifactKey: Guid(d38fa398da1ea32468d156d9191a75d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Fountains/Fountains Tileset.asset using Guid(d38fa398da1ea32468d156d9191a75d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef7854f13ae75138fa92d69949135b0') in 0.008686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/CreativeSpore/SuperTilemapEditor - Extra/Tileset - Samples/Kenneys - Rogue Like/RoguelikeTileset.asset
+  artifactKey: Guid(20ab9e88fa1ed764c8cb5f7c94720e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CreativeSpore/SuperTilemapEditor - Extra/Tileset - Samples/Kenneys - Rogue Like/RoguelikeTileset.asset using Guid(20ab9e88fa1ed764c8cb5f7c94720e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b021dca4d2a1aed4db248afca0d82d6') in 0.019132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tilesets/Towns/Town - Props Tileset.asset
+  artifactKey: Guid(1db8edf45e252c241b57b0c106721aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Towns/Town - Props Tileset.asset using Guid(1db8edf45e252c241b57b0c106721aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38497f5f8ef9cd5985eae69785d1584b') in 0.025713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Tilesets/Market Stalls/Market Stall Tileset.asset
+  artifactKey: Guid(d8e8f947f9f9d174ca5380aa8093fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Market Stalls/Market Stall Tileset.asset using Guid(d8e8f947f9f9d174ca5380aa8093fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd65794d95c1eaa6705bed9db968336') in 0.008259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
