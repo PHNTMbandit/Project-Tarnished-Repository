@@ -229,7 +229,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 944a6097ece65474791118dd94cc5b6e, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -942,13 +942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5783dbbad6a59184fa58aa75d79bcc02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shadowType: 0
+  shadowType: 1
   shadowLayer: 0
   shadowDistance: 0
   shadowDistanceMin: 0.5
   shadowDistanceMax: 1
   shadowTranslucency: 0
-  maskType: 2
+  maskType: 1
   maskLit: 0
   maskPivot: 0
   maskLayer: 0
@@ -963,8 +963,8 @@ MonoBehaviour:
     depth: 1
     spriteRenderer: {fileID: 4743054278342227629}
   mainShape:
-    shadowType: 0
-    maskType: 2
+    shadowType: 1
+    maskType: 1
     maskPivot: 0
     transform: {fileID: 4743054278342227634}
 --- !u!1 &4743054280062266469
