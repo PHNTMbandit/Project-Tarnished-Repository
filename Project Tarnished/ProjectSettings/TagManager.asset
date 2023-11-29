@@ -12,8 +12,8 @@ TagManager:
   - Water
   - UI
   - NPC
-  - 
-  - 
+  - Lighting Internal (Game)
+  - Lighting Internal (Scene)
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 16027691
+    locked: 0
+  - name: Lighting
+    uniqueID: 5827525
     locked: 0
