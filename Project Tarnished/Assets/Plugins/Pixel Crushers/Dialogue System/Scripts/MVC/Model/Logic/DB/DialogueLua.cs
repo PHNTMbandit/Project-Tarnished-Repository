@@ -957,6 +957,7 @@ namespace PixelCrushers.DialogueSystem
         /// <param name="element">Element name (e.g., "Player").</param>
         public static bool DoesTableElementExist(string table, string element)
         {
+            if (string.IsNullOrEmpty(element)) return false;
             LuaTable luaTable = Lua.Environment.GetValue(table) as LuaTable;
             return (luaTable != null) ? (luaTable.GetKey(StringToTableIndex(element)) != LuaNil.Nil) : false;
             //--- Was (unoptimized):
@@ -1007,6 +1008,7 @@ namespace PixelCrushers.DialogueSystem
         public static void SetTableField(string table, string element, string field, object value)
         {
             Lua.WasInvoked = true;
+            if (string.IsNullOrEmpty(table) || string.IsNullOrEmpty(element) || string.IsNullOrEmpty(field)) return;
             LuaTable luaTable = Lua.Environment.GetValue(table) as LuaTable;
             if (luaTable == null) throw new System.NullReferenceException("Table not found in Lua environment: " + table);
             LuaTable elementTable = luaTable.GetValue(StringToTableIndex(element)) as LuaTable;

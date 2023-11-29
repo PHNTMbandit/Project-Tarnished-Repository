@@ -4,6 +4,12 @@ Copyright © Pixel Crushers
 RELEASE NOTES
 -------------
 
+Version 1.10.41:
+[November 8, 2023]
+- Updated common library code.
+- Save System: Now supports loading scenes from Addressables.
+
+
 Version 1.10.40.1:
 [September 28, 2023]
 - Fixed: UIUtility.Select() issue when using multiple EventSystems that didn't update the current EventSystem.

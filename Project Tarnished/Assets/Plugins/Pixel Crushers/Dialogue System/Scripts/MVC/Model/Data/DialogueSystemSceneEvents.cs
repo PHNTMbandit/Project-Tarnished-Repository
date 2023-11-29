@@ -35,6 +35,21 @@ namespace PixelCrushers.DialogueSystem
 
         private void Awake()
         {
+            RegisterInstance();
+        }
+
+        private void Start()
+        {
+            RegisterInstance();
+        }
+
+        private void OnDestroy()
+        {
+            m_sceneInstances.Remove(this);
+        }
+
+        private void RegisterInstance()
+        {
             if (!m_sceneInstances.Contains(this))
             {
                 m_sceneInstances.Add(this);
@@ -73,6 +88,7 @@ namespace PixelCrushers.DialogueSystem
             if (!Application.isPlaying) return null;
             foreach (var sceneInstance in m_sceneInstances)
             {
+                if (sceneInstance == null || sceneInstance.dialogueEntrySceneEvents == null) continue;
                 var result = sceneInstance.dialogueEntrySceneEvents.Find(x => x.guid == guid);
                 if (result != null) return result;
             }
@@ -82,9 +98,10 @@ namespace PixelCrushers.DialogueSystem
         public static int GetDialogueEntrySceneEventIndex(string guid)
         {
             if (!Application.isPlaying) return -1;
-            foreach (var sceneEvents in m_sceneInstances)
+            foreach (var sceneInstance in m_sceneInstances)
             {
-                var result = sceneEvents.dialogueEntrySceneEvents.FindIndex(x => x.guid == guid);
+                if (sceneInstance == null || sceneInstance.dialogueEntrySceneEvents == null) continue;
+                var result = sceneInstance.dialogueEntrySceneEvents.FindIndex(x => x.guid == guid);
                 if (result != -1) return result;
             }
             return -1;

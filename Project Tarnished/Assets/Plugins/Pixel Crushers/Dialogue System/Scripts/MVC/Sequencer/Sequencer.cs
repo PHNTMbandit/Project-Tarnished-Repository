@@ -781,6 +781,11 @@ namespace PixelCrushers.DialogueSystem
                 }
             }
             m_isPlaying = true;
+            if (commandName == "Continue") // Don't use 'required' in front of Continue()
+            {
+                required = false;
+                commandRecord.required = false;
+            }
             if ((time <= InstantThreshold) && !IsTimePaused() && string.IsNullOrEmpty(message))
             {
                 ActivateCommand(commandName, endMessage, speaker, listener, args);
@@ -2623,6 +2628,21 @@ namespace PixelCrushers.DialogueSystem
             return true;
         }
 
+        private DisplaySettings currentDisplaySettings
+        {
+            get
+            {
+                if (conversationView != null && conversationView.displaySettings != null)
+                {
+                    return conversationView.displaySettings;
+                }
+                else
+                {
+                    return DialogueManager.displaySettings;
+                }
+            }
+        }
+
         /// <summary>
         /// Handles the "SetMenuPanel(actorName, panelNum)" action.
         /// 
@@ -2634,9 +2654,9 @@ namespace PixelCrushers.DialogueSystem
         {
             float duration = SequencerTools.GetParameterAsFloat(args, 0);
             if (DialogueDebug.logInfo) Debug.Log(string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0}: Sequencer: SetTimeout({1})", DialogueDebug.Prefix, duration));
-            if (DialogueManager.displaySettings != null && DialogueManager.displaySettings.inputSettings != null)
+            if (currentDisplaySettings != null && currentDisplaySettings.inputSettings != null)
             {
-                DialogueManager.displaySettings.inputSettings.responseTimeout = duration;
+                currentDisplaySettings.inputSettings.responseTimeout = duration;
             }
             return true;
         }

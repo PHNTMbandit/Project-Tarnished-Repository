@@ -183,7 +183,21 @@ namespace PixelCrushers.DialogueSystem
                     return;
                 }
             }
+            CheckForBlankResponses(responses);
             ShowResponsesNow(subtitle, responses, target);
+        }
+
+        private void CheckForBlankResponses(Response[] responses)
+        {
+            if (!DialogueDebug.logWarnings) return;
+            if (responses == null) return;
+            foreach (Response response in responses)
+            {
+                if (string.IsNullOrEmpty(response.formattedText.text))
+                {
+                    Debug.LogWarning($"Dialogue System: Response [{response.destinationEntry.conversationID}:{response.destinationEntry.id}] has no text for a response button.");
+                }
+            }
         }
 
         protected virtual void ShowResponsesNow(Subtitle subtitle, Response[] responses, Transform target)
@@ -682,6 +696,10 @@ namespace PixelCrushers.DialogueSystem
             {
                 RefreshSelectablesList();
                 CheckFocus();
+                if (eventSystem != null && eventSystem.currentSelectedGameObject != null)
+                { // Also show in focused/selected state:
+                    UIUtility.Select(eventSystem.currentSelectedGameObject.GetComponent<UnityEngine.UI.Selectable>());
+                }
             }
         }
         #endregion

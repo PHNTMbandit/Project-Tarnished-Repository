@@ -39,6 +39,21 @@ namespace PixelCrushers.QuestMachine
 
         private void Awake()
         {
+            RegisterInstance();
+        }
+
+        private void Start()
+        {
+            RegisterInstance();
+        }
+
+        private void OnDestroy()
+        {
+            m_sceneInstances.Remove(this);
+        }
+
+        private void RegisterInstance()
+        {
             if (!m_sceneInstances.Contains(this))
             {
                 m_sceneInstances.Add(this);
@@ -79,6 +94,7 @@ namespace PixelCrushers.QuestMachine
             if (!Application.isPlaying) return null;
             foreach (var sceneInstance in m_sceneInstances)
             {
+                if (sceneInstance == null || sceneInstance.sceneEvents == null) continue;
                 var result = sceneInstance.sceneEvents.Find(x => x.guid == guid);
                 if (result != null) return result;
             }
@@ -88,9 +104,10 @@ namespace PixelCrushers.QuestMachine
         public static int GetSceneEventIndex(string guid)
         {
             if (!Application.isPlaying) return -1;
-            foreach (var sceneEvents in m_sceneInstances)
+            foreach (var sceneInstance in m_sceneInstances)
             {
-                var result = sceneEvents.sceneEvents.FindIndex(x => x.guid == guid);
+                if (sceneInstance == null || sceneInstance.sceneEvents == null) continue;
+                var result = sceneInstance.sceneEvents.FindIndex(x => x.guid == guid);
                 if (result != -1) return result;
             }
             return -1;
