@@ -12,10 +12,7 @@ namespace ProjectTarnished.Data.Stats
         [field: EnumToggleButtons, SerializeField]
         public AttributeName Attribute { get; private set; }
 
-        [field: Range(0, 100), SerializeField]
-        public int MaxSkillLevel { get; private set; }
-
-        [field: PropertyRange(0, "MaxSkillLevel"), SerializeField]
+        [field: Range(0, 99), SerializeField]
         public int SkillLevel { get; private set; }
 
         [field: SerializeField, TextArea]

@@ -4,6 +4,7 @@ using UnityEngine;
 namespace ProjectTarnished.Character.StateMachine
 {
     [RequireComponent(typeof(Animator))]
+    [RequireComponent(typeof(CharacterMove))]
     public class CharacterStateMachineController : MonoBehaviour
     {
         #region Properties
@@ -54,6 +55,7 @@ namespace ProjectTarnished.Character.StateMachine
         {
             StateMachine.ChangeState(GetState(stateName));
         }
+
         public void SetState(CharacterState state)
         {
             StateMachine.ChangeState(GetState(state));

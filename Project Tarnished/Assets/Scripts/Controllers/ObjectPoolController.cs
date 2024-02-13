@@ -1,7 +1,7 @@
-using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace ProjectTarnished.Controllers
@@ -25,7 +25,9 @@ namespace ProjectTarnished.Controllers
         #region Singleton
 
         public static ObjectPoolController Instance
-        { get { return _instance; } }
+        {
+            get { return _instance; }
+        }
 
         private static ObjectPoolController _instance;
 
@@ -62,7 +64,77 @@ namespace ProjectTarnished.Controllers
             }
         }
 
-        public GameObject GetPooledObject(string tag, Vector3 position, Quaternion rotation, Transform parent, bool worldPositionStays)
+        public T GetPooledObject<T>(string tag, Vector3 position)
+            where T : Behaviour
+        {
+            if (!poolDictionary.ContainsKey(tag))
+            {
+                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
+                return null;
+            }
+
+            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+            objectToSpawn.SetActive(true);
+            objectToSpawn.transform.SetPositionAndRotation(position, Quaternion.identity);
+
+            poolDictionary[tag].Enqueue(objectToSpawn);
+
+            return objectToSpawn.GetComponent<T>();
+        }
+
+        public T GetPooledObject<T>(string tag, Vector3 position, Quaternion rotation)
+            where T : Behaviour
+        {
+            if (!poolDictionary.ContainsKey(tag))
+            {
+                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
+                return null;
+            }
+
+            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+            objectToSpawn.SetActive(true);
+            objectToSpawn.transform.SetPositionAndRotation(position, rotation);
+
+            poolDictionary[tag].Enqueue(objectToSpawn);
+
+            return objectToSpawn.GetComponent<T>();
+        }
+
+        public T GetPooledObject<T>(
+            string tag,
+            Vector3 position,
+            Quaternion rotation,
+            Transform parent
+        )
+            where T : Behaviour
+        {
+            if (!poolDictionary.ContainsKey(tag))
+            {
+                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
+                return null;
+            }
+
+            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+            objectToSpawn.SetActive(true);
+            objectToSpawn.transform.SetPositionAndRotation(position, rotation);
+            objectToSpawn.transform.SetParent(parent);
+
+            poolDictionary[tag].Enqueue(objectToSpawn);
+
+            return objectToSpawn.GetComponent<T>();
+        }
+
+        public T GetPooledObject<T>(
+            string tag,
+            Vector3 position,
+            Quaternion rotation,
+            Transform parent,
+            bool worldPositionStays
+        )
+            where T : Behaviour
         {
             if (!poolDictionary.ContainsKey(tag))
             {
@@ -78,64 +150,7 @@ namespace ProjectTarnished.Controllers
 
             poolDictionary[tag].Enqueue(objectToSpawn);
 
-            return objectToSpawn;
-        }
-
-        public GameObject GetPooledObject(string tag, Vector3 position, Transform parent, bool worldPositionStays)
-        {
-            if (!poolDictionary.ContainsKey(tag))
-            {
-                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
-                return null;
-            }
-
-            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
-
-            objectToSpawn.SetActive(true);
-            objectToSpawn.transform.position = position;
-            objectToSpawn.transform.SetParent(parent, worldPositionStays);
-
-            poolDictionary[tag].Enqueue(objectToSpawn);
-
-            return objectToSpawn;
-        }
-
-        public GameObject GetPooledObject(string tag, Vector3 position, Quaternion rotation, bool worldPositionStays)
-        {
-            if (!poolDictionary.ContainsKey(tag))
-            {
-                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
-                return null;
-            }
-
-            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
-
-            objectToSpawn.SetActive(true);
-            objectToSpawn.transform.SetPositionAndRotation(position, rotation);
-            objectToSpawn.transform.SetParent(transform, worldPositionStays);
-
-            poolDictionary[tag].Enqueue(objectToSpawn);
-
-            return objectToSpawn;
-        }
-
-        public GameObject GetPooledObject(string tag, Vector3 position, bool worldPositionStays)
-        {
-            if (!poolDictionary.ContainsKey(tag))
-            {
-                Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
-                return null;
-            }
-
-            GameObject objectToSpawn = poolDictionary[tag].Dequeue();
-
-            objectToSpawn.SetActive(true);
-            objectToSpawn.transform.position = position;
-            objectToSpawn.transform.SetParent(transform, worldPositionStays);
-
-            poolDictionary[tag].Enqueue(objectToSpawn);
-
-            return objectToSpawn;
+            return objectToSpawn.GetComponent<T>();
         }
 
         [Button("Sort Lists")]

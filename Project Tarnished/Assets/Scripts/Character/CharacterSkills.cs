@@ -22,12 +22,12 @@ namespace ProjectTarnished.Character
 
         public bool SkillCheck(Skill skill, int DC)
         {
-            return (RollDice.Roll2D10() + GetSkill(skill).SkillLevel) >= DC;
+            return (RollDice.Roll(DiceType.D10, 2) + GetSkill(skill).SkillLevel) >= DC;
         }
 
         public bool SkillCheck(string skillName, int DC, out int roll)
         {
-            roll = RollDice.Roll2D10() + GetSkill(skillName).SkillLevel;
+            roll = RollDice.Roll(DiceType.D10, 2) + GetSkill(skillName).SkillLevel;
             return roll >= DC;
         }
 
